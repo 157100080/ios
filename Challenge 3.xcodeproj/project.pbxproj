@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB985ADA1CBB890A0003B01E /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB985AD91CBB890A0003B01E /* DetailController.swift */; };
+		AB985ADC1CBB8BEE0003B01E /* DetailCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB985ADB1CBB8BEE0003B01E /* DetailCellController.swift */; };
 		AB9B5C2D1CB385D200211EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9B5C2C1CB385D200211EE9 /* AppDelegate.swift */; };
-		AB9B5C2F1CB385D200211EE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9B5C2E1CB385D200211EE9 /* ViewController.swift */; };
 		AB9B5C321CB385D200211EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9B5C301CB385D200211EE9 /* Main.storyboard */; };
 		AB9B5C351CB385D200211EE9 /* Challenge_3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB9B5C331CB385D200211EE9 /* Challenge_3.xcdatamodeld */; };
 		AB9B5C371CB385D200211EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB9B5C361CB385D200211EE9 /* Assets.xcassets */; };
 		AB9B5C3A1CB385D200211EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9B5C381CB385D200211EE9 /* LaunchScreen.storyboard */; };
+		AB9B5C441CB3892900211EE9 /* FoodList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9B5C411CB3892900211EE9 /* FoodList.swift */; };
+		AB9B5C451CB3892900211EE9 /* BookListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9B5C421CB3892900211EE9 /* BookListController.swift */; };
+		AB9B5C461CB3892900211EE9 /* CustomCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9B5C431CB3892900211EE9 /* CustomCellController.swift */; };
+		AB9B5C4A1CB3B0E200211EE9 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9B5C491CB3B0E100211EE9 /* Order.swift */; };
+		E1375E261CB9213600773418 /* OrderCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1375E251CB9213600773418 /* OrderCellController.swift */; };
+		E1375E2C1CBA3B6A00773418 /* CurrentOrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1375E2B1CBA3B6A00773418 /* CurrentOrderController.swift */; };
+		E1375E311CBA465300773418 /* Entity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1375E2F1CBA465300773418 /* Entity+CoreDataProperties.swift */; };
+		E1375E321CBA465300773418 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1375E301CBA465300773418 /* Entity.swift */; };
+		E13EDA751CB91FF300AF156F /* OrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13EDA741CB91FF300AF156F /* OrderController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB985AD91CBB890A0003B01E /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		AB985ADB1CBB8BEE0003B01E /* DetailCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCellController.swift; sourceTree = "<group>"; };
 		AB9B5C291CB385D200211EE9 /* Challenge 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Challenge 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9B5C2C1CB385D200211EE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB9B5C2E1CB385D200211EE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB9B5C311CB385D200211EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB9B5C341CB385D200211EE9 /* Challenge_3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Challenge_3.xcdatamodel; sourceTree = "<group>"; };
 		AB9B5C361CB385D200211EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB9B5C391CB385D200211EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB9B5C3B1CB385D200211EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB9B5C411CB3892900211EE9 /* FoodList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodList.swift; sourceTree = "<group>"; };
+		AB9B5C421CB3892900211EE9 /* BookListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListController.swift; sourceTree = "<group>"; };
+		AB9B5C431CB3892900211EE9 /* CustomCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellController.swift; sourceTree = "<group>"; };
+		AB9B5C491CB3B0E100211EE9 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		E1375E251CB9213600773418 /* OrderCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderCellController.swift; sourceTree = "<group>"; };
+		E1375E2B1CBA3B6A00773418 /* CurrentOrderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentOrderController.swift; sourceTree = "<group>"; };
+		E1375E2F1CBA465300773418 /* Entity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Entity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E1375E301CBA465300773418 /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		E13EDA741CB91FF300AF156F /* OrderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +60,8 @@
 		AB9B5C201CB385D200211EE9 = {
 			isa = PBXGroup;
 			children = (
+				E1375E2F1CBA465300773418 /* Entity+CoreDataProperties.swift */,
+				E1375E301CBA465300773418 /* Entity.swift */,
 				AB9B5C2B1CB385D200211EE9 /* Challenge 3 */,
 				AB9B5C2A1CB385D200211EE9 /* Products */,
 			);
@@ -56,13 +78,21 @@
 		AB9B5C2B1CB385D200211EE9 /* Challenge 3 */ = {
 			isa = PBXGroup;
 			children = (
+				AB9B5C411CB3892900211EE9 /* FoodList.swift */,
+				AB9B5C421CB3892900211EE9 /* BookListController.swift */,
+				AB9B5C431CB3892900211EE9 /* CustomCellController.swift */,
 				AB9B5C2C1CB385D200211EE9 /* AppDelegate.swift */,
-				AB9B5C2E1CB385D200211EE9 /* ViewController.swift */,
 				AB9B5C301CB385D200211EE9 /* Main.storyboard */,
 				AB9B5C361CB385D200211EE9 /* Assets.xcassets */,
 				AB9B5C381CB385D200211EE9 /* LaunchScreen.storyboard */,
 				AB9B5C3B1CB385D200211EE9 /* Info.plist */,
 				AB9B5C331CB385D200211EE9 /* Challenge_3.xcdatamodeld */,
+				AB9B5C491CB3B0E100211EE9 /* Order.swift */,
+				E13EDA741CB91FF300AF156F /* OrderController.swift */,
+				E1375E251CB9213600773418 /* OrderCellController.swift */,
+				E1375E2B1CBA3B6A00773418 /* CurrentOrderController.swift */,
+				AB985AD91CBB890A0003B01E /* DetailController.swift */,
+				AB985ADB1CBB8BEE0003B01E /* DetailCellController.swift */,
 			);
 			path = "Challenge 3";
 			sourceTree = "<group>";
@@ -138,8 +168,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB985ADC1CBB8BEE0003B01E /* DetailCellController.swift in Sources */,
+				AB9B5C441CB3892900211EE9 /* FoodList.swift in Sources */,
+				E1375E321CBA465300773418 /* Entity.swift in Sources */,
+				AB9B5C4A1CB3B0E200211EE9 /* Order.swift in Sources */,
+				E13EDA751CB91FF300AF156F /* OrderController.swift in Sources */,
+				E1375E261CB9213600773418 /* OrderCellController.swift in Sources */,
 				AB9B5C351CB385D200211EE9 /* Challenge_3.xcdatamodeld in Sources */,
-				AB9B5C2F1CB385D200211EE9 /* ViewController.swift in Sources */,
+				AB9B5C461CB3892900211EE9 /* CustomCellController.swift in Sources */,
+				E1375E311CBA465300773418 /* Entity+CoreDataProperties.swift in Sources */,
+				AB985ADA1CBB890A0003B01E /* DetailController.swift in Sources */,
+				AB9B5C451CB3892900211EE9 /* BookListController.swift in Sources */,
+				E1375E2C1CBA3B6A00773418 /* CurrentOrderController.swift in Sources */,
 				AB9B5C2D1CB385D200211EE9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +328,7 @@
 				AB9B5C401CB385D200211EE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
